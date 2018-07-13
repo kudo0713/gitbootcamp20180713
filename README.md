@@ -5,8 +5,6 @@
 #2.git commit
 ファイルの変更した部分を保存しておくコマンド
 
-<<<<<<< HEAD
-=======
 #3
 git commit -
 
@@ -14,19 +12,8 @@ git commit -
 - 正常に処理される場合、実行後は何も表示されない。
 - git branch と打つと、以下が表示される
 
-# 5. git branch fix/42 を実行 (カツゲン)
-- 正常に処理される場合、実行後は何も表示されない。
-- git branch と打つと、以下が表示される
-
 # 6git checkout -b fix/42;git commit
 →fix/42というブランチを作成し、コミットを分岐させる。
-
-# 5. git branch fix/42 を実行 (カツゲン)
-- 正常に処理される場合、実行後は何も表示されない。
-- git branch と打つと、以下が表示される
-
-# 6．git checkout -b fix/42;git commit
-- fix/42というブランチを作成し、コミットを分岐させる。
 
 ## 7. git checkout -b fix/42
 - fix/42という名前のブランチを作成し、そこに移動するコマンド。
