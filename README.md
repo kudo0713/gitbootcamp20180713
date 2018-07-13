@@ -11,7 +11,8 @@
 
 
 ## 3
-git commit -
+git commit
+
 すみませんでした。
 
 
