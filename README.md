@@ -5,8 +5,6 @@
 #2.git commit
 ファイルの変更した部分を保存しておくコマンド
 
-<<<<<<< HEAD
-=======
 #3
 git commit -
 
@@ -14,18 +12,7 @@ git commit -
 - 正常に処理される場合、実行後は何も表示されない。
 - git branch と打つと、以下が表示される
 
-# 5. git branch fix/42 を実行 (カツゲン)
-- 正常に処理される場合、実行後は何も表示されない。
-- git branch と打つと、以下が表示される
-
-# 6git checkout -b fix/42;git commit
-→fix/42というブランチを作成し、コミットを分岐させる。
-
-# 5. git branch fix/42 を実行 (カツゲン)
-- 正常に処理される場合、実行後は何も表示されない。
-- git branch と打つと、以下が表示される
-
-# 6．git checkout -b fix/42;git commit
+# 6. git checkout -b fix/42;git commit
 - fix/42というブランチを作成し、コミットを分岐させる。
 
 ## 7. git checkout -b fix/42
@@ -35,10 +22,13 @@ git commit -
 ## 8. test
 - git push までを練習中です。すみません。
 
-# 12．git checkout fix/42
+# 12. git checkout fix/42
 - fix/42という名前のブランチに切り替える。
 
 ## 13. git rebase master
 - 今いるブランチをmasterのブランチに付け替えるコマンド。
 - 現在のブランチの指す先をリベース先のブランチと同じコミットに移動させ、そして先ほどの変更を順に適用していく。
 - rebaseすると元のコミットとはコミットIDが変わってしまう。
+
+# 18. git pull
+- リモートリポジトリの変更点をローカルリポジトリに取り込む。
