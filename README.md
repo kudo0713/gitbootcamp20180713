@@ -66,4 +66,3 @@ fix/42
 fix/42ブランチへの切り替え
 - $ git merge master  
 fix/42は何も記述がないファイルのため、masterの情報に更新
->>>>>>> origin/master
