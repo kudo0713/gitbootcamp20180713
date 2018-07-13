@@ -12,6 +12,7 @@
 
 ## 3
 git commit -
+すみませんでした。
 
 
 ## 5. git branch fix/42 を実行
