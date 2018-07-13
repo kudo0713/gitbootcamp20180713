@@ -23,3 +23,11 @@ fix/42
 
 ## 7 git checkout -b fix/42:git commit
 - fix/42を作成しcommitを実行
+
+## ローカルブランチ(fix/42)をローカルのmasterとマージ
+- $ git checkout fix/42  
+fix/42ブランチへの切り替え
+- $ git merge master  
+fix/42は何も記述がないファイルのため、masterの情報に更新
+
+## ローカルブランチ(fix/42)を編集後、ローカルのマスターに切り替え編集
