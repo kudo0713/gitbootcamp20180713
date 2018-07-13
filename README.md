@@ -58,6 +58,11 @@ fix/42
 - リモートリポジトリの変更点をローカルリポジトリに取り込む。
 
 
+## 19. git pull --rebase
+- git pullは fetch + mergeですが、--rebaseオプションをつけるとfetch + rebaseとなる。
+- マージコミットを作りたくないときに使う。ただしrebaseすると元のコミットとはコミットIDが変わってしまう。
+
+
 ## other. test
 - git push までを練習中です。すみません。
 
