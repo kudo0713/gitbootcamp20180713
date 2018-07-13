@@ -8,3 +8,6 @@
 - 正常に処理される場合、実行後は何も表示されない。
 - git branch と打つと、以下が表示される
 
+# 7. git checkout -b fix/42
+- test1
+- test2
