@@ -7,12 +7,12 @@
 
 
 ## 2.git commit
-ファイルの変更した部分を保存しておくコマンド
+- ファイルの変更した部分を保存しておくコマンド
 
 
 ## 3
-git commit -
-すみませんでした。
+- git commit -  
+- すみませんでした。 No problem!!
 
 
 ## 5. git branch fix/42 を実行
@@ -62,3 +62,6 @@ fix/42
 fix/42ブランチへの切り替え
 - $ git merge master  
 fix/42は何も記述がないファイルのため、masterの情報に更新
+
+## git rebase -i を成功させるために
+- rebaseにはコミットidが欠かせない。
