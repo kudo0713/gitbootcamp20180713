@@ -63,5 +63,16 @@ fix/42ブランチへの切り替え
 - $ git merge master  
 fix/42は何も記述がないファイルのため、masterの情報に更新
 
-## git rebase -i を成功させるために
-- rebaseにはコミットidが欠かせない。
+## git rebase -i
+- pullしたり、mergeしてから自分がcommitした履歴が表示される
+- pick [commit id] [commit comment] で記述されている。
+- pick を適宜変更し、内容を保存。エディタを閉じる。
+- 再度エディタが開くので、コミットコメントを改めて記述する。
+- 記述が終わったら保存。エディタを閉じると、以下のメッセージが表示される。
+ - 実行結果(例)
+```
+[detached HEAD 2a30600] git rebase -i を練習し、その方法を残す
+ Date: Fri Jul 13 15:55:01 2018 +0900
+ 1 file changed, 7 insertions(+), 4 deletions(-)
+Successfully rebased and updated refs/heads/master.
+```
