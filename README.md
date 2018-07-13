@@ -8,3 +8,7 @@
 fix/42
 * master
 ```
+
+# 8. git reset --hard master
+- ローカルのツリーとインデックスの変更内容はすべて消える。実行時は要注意です。
+- git statusで必ず状態を確認しましょう。
