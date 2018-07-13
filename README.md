@@ -62,6 +62,11 @@ fix/42
 - マージコミットを作りたくないときに使う。ただしrebaseすると元のコミットとはコミットIDが変わってしまう。
 
 
+## 21. git cherry pick 2
+- 現在のブランチとは別のブランチのコミットID:2を現在のブランチに取り込む。
+- 複数のコミットをまとめて cherry-pickするときはgit cherry pick 始点コミットID..終点コミットIDで可能。
+
+
 ## 22. git init
 - ローカル上に新規にgit管理プロジェクトを作成する。
 - コマンドを打った時のカレントディレクトリがgit管理下に入り、そのディレクトリに.gitという隠しフォルダが作成される。
@@ -94,3 +99,4 @@ fix/42は何も記述がないファイルのため、masterの情報に更新
  1 file changed, 7 insertions(+), 4 deletions(-)
 Successfully rebased and updated refs/heads/master.
 ```
+
